@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 
 
-client = pymongo.MongoClient("mongodb+srv://atlasadmin:atlasadmin@transacciones-v8fmm.mongodb.net/test?retryWrites=true")
+client = pymongo.MongoClient("mongodb+srv://atlasadmin:<PASSWORD>@transacciones-v8fmm.mongodb.net/test?retryWrites=true")
 db = client["Transacciones"]
 
 collection = db["Transacciones"]
